@@ -1,0 +1,18 @@
+.main-section {
+  width: 100%;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: #ef1f1f;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+#output p {
+  font-weight: bold;
+  margin: 5px 0;
+}
