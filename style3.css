@@ -1,0 +1,109 @@
+/* style1.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('tlo.png') center/cover no-repeat;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: url('Bezunia.jpg') center/cover no-repeat;
+    color: white;
+    position: relative;
+}
+
+/* Stylizacja tytułu H1 */
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    background: linear-gradient(45deg, #f39c12, #e74c3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+
+/* Podtytuł H2 */
+h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #f5f5f5;
+}
+
+/* Nagłówki sekcji H3 */
+h3 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+/* Sekcje – jedno wspólne tło */
+section {
+    border: 3px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    background: url('tlo.png') repeat;
+    background-size: 600px; /* wspólna wielkość wzoru */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Akapity — bez tła */
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Listy – tło takie jak w sekcji */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+
+    background: url('tlo.png') repeat;
+    background-size: 600px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Blok ze zdjęciem – też tło */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 50%;
+}
+
+/* Kontener obrazka (jeśli masz image w sekcji — będzie działać) */
+figure, .image-block {
+    background: url('tlo.png') repeat;
+    background-size: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Stopka */
+footer {
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: auto;
+}
